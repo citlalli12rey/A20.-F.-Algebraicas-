@@ -1,21 +1,21 @@
 %Scrip Octave
 %title          :Actividad l9
 %Descripcion    :F. Inyectiva, Sobreyectiva, Biyectiva    
-%Autor          :Diana Citlali  Espinosa Reyes  
+%Autor          :Diana Citlalli  Espinosa Reyes 
 %Date           :202123199
-%Versi髇        :1
+%Versi贸n        :1
 %Funcion        : Ejercicio numero 4
 
 claro
-paquete de  carga simb髄ico
+paquete de  carga simb贸lico
 syms  x
 
 x =  - 5 : 1 : 5 ;
 fx = (( 2. * x . ^ 2 ) + ( x . ^ 4 ) + ( x ));
 trama ( x , fx );
 mantenga  en
-cuadr韈ula  en
+cuadr铆cula  en
 
-t韙ulo ([ " Funci髇 2: Polinomio " ]);
-disp ( " Es una funci髇 polinomial " );
+t铆tulo ([ " Funci贸n 4:Funcion polinomio" )
+disp ( " Es una funci贸n polinomial " );
 disp ( " Cuando fx = 0, sus puntos son: x = -2.4 yx = 0 " );
